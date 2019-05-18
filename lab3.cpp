@@ -158,6 +158,7 @@ int main(int argc, char** argv) {
 
 	setlocale(LC_ALL, "Russian");
 	setlocale(0, "");
+	cout<<"привет"<<endl;
 	std::cout<<"Программа с хранилищем книг"<<std::endl;
 	go(); //запускаем 
 	
